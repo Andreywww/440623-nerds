@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="c:\Users\Andrei\Documents\GitHub\440623-nerds\css\style.css" rel="stylesheet">
   </head>
   <body>
   <header class="main-header">
@@ -26,17 +27,23 @@
    <main>
    	<p><b>Магазин готовых шаблонов</b></p>
     <section>
-      <h3>СТОИМОСТЬ:</h3>
-      <img src="img\Сортировка.jpg">    
-     <form>
-    <p class="item">
-      От
-    <input type="text" name="date" value="" placeholder="0"> 
-    </p>    
-        <p class="item">
-      До
-    <input type="text" name="date" value="" placeholder="15000"> 
-    </p>   
+    <h3>СТОИМОСТЬ:</h3>
+    <div class="filter">
+      <div class="filter-range-wrapper">
+        <div class="filter-range">
+          <div class="filter-range-scale">
+            <div class="filter-range-bar"></div>
+          </div>
+        <div class="filter-range-handle min"></div>
+      <div class="filter-range-handle max"></div>
+    </div>
+  </div>
+
+   <div class="filter-interval">
+     <label>От <input type="text" name="min-interval" value="0"></label>
+     <label>До <input type="text" name="max-interval" value="15000"></label>
+   </div>
+  </div>    
      </section>
 
      <section>
@@ -59,26 +66,18 @@
      </section>
     <button class="button">Показать</button>
      </form>
-     <section>
-      <h3>ОСОБЕННОСТИ:</h3>  
-      <ul> 
-        <li>Слайдер</li>    
-        <li>Блок преимуществ</li>
-        <li>Новости</li>
-        <li>Галерея</li>    
-        <li>Корзина</li>
-     </ul>
-     </section>
-      <section>
+    <section>
       <img src="img\img-sedona.jpg">
       <img src="img\img-pink.jpg">
       <img src="img\img-mishka.jpg">
       <img src="img\img-kvast.jpg">
       <img src="img\img-barbershop.jpg">
       <img src="img\img-aplus.jpg">
-     </section>
-   
-
+    </section>
+  </main>
+    <footer class="main-footer">
+  
+  <section>  
   <p>NЁRDS DESIGN STUDIO</p>
   <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8,</p> 
   <p>тел. +7 (812) 275-75-75</p>
@@ -99,13 +98,20 @@
     </p> 
     <button class="button">ОТПРАВИТЬ</button>    
   </form>
-
-  </main>
-  <footer class="main-footer">
-    <p><b>Давайте дружить, это выгодно!</b></p>
-    <p>Скидка 10% для друзей из социальных сетей.</p>
-    
-        
+  </section> 
+  <section>
+      <div class="footer-social">
+        <ul>
+         <li><a class="social-button" href="#">Вконтакте</a></li>
+         <li><a class="social-button" href="#">Фейсбук</a></li>
+         <li><a class="social-button" href="#">Инсаграм</a></li>
+        </ul>
+      </div>
+      <div>
+         <p><b>Давайте дружить, это выгодно!</b></p>
+         <p>Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+  </section>   
   </footer> 
   </body>
 </html>
