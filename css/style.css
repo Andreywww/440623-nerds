@@ -30,6 +30,24 @@ a {
   opacity:0.8;
 } 
 
+.order {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-nerds {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.the-next {
+  text-transform: uppercase;
+}
+
+.table-1 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 .our-services h3 {
   text-transform: uppercase;
@@ -37,6 +55,10 @@ a {
 
 .main-slider b {
   font-size: 300%;
+}
+
+.about-us b {
+  font-size: 250%;
 }
 
 .main-footer b {
