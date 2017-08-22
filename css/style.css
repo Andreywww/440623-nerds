@@ -1,3 +1,61 @@
+body { 
+  font-size: 100%;
+  line-height: 100%;
+  color: #000000;
+  font-weight: normal;
+  font-family: 'Times New Roman';
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  text-transform: uppercase;
+}
+
+.site-navigation,
+.user-navigation,
+.slider {
+  list-style: none;
+}
+
+.projects,
+.footer-button {
+  list-style: none;
+}
+
+
+.main-header-logo {
+  opacity:0.8;
+} 
+
+
+.our-services h3 {
+  text-transform: uppercase;
+}
+
+.main-slider b {
+  font-size: 300%;
+}
+
+.main-footer b {
+  font-size: 300%;
+}
+
+.filter-aside h3 {
+  text-transform: uppercase;
+}
+
+.range-filters h3 {
+  text-transform: uppercase;
+}
+
+.range-filters {
+  text-transform: uppercase;
+}
+
+
 .filter {
   margin: 0 auto;
   padding: 25px;

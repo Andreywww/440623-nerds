@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="css\style.css" rel="stylesheet">
   </head>
   <body>
   <header class="main-header">
  	<nav  class="main-navigation">
   <a class="main-header-logo">
-  <img src="img\nerds-logo.svg" alt="Логотип Нёрдс">
+  <img src="img\nerds-logo.svg" width="160" height="70" alt="Логотип Нёрдс">
   </a>
-   <ul> 
+   <ul class="site-navigation"> 
  	  <li><a href="#">Студия</a></li>    
     <li><a href="#">Клиенты</a></li>
     <li><a href="catalog.html">Магазин</a></li>
@@ -26,16 +27,16 @@
    <main>
     <section class="main-slider">
      <div>
-        <ul>
-          <li> <p><b>Долго, дорого, скрупулезно.</b></p>
+        <ul class="slider">
+          <li class="slider1"> <p><b>Долго, дорого, скрупулезно.</b></p>
                <p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
                <a href="#">Узнать больше</a>
                <img src="img\nerds-index-slide1.png"></li>                
-          <li><p><b>Любим математику как никто другой</b></p>
+          <li class="slider2"><p><b>Любим математику как никто другой</b></p>
               <p>Никакого креатива, только математические форулы для расчета идеальных пропорций.</p>
               <a href="#">Узнать больше</a>
               <img src="img\nerds-index-slide2.png"></li>
-          <li><p><b>Только ночь, только хардкор</b></p>
+          <li class="slider3"><p><b>Только ночь, только хардкор</b></p>
               <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
               <a href="#">Узнать больше</a>
               <img src="img\nerds-index-slide3.png"></li>
@@ -60,10 +61,10 @@
     	<p><b>Мы- маленькая, но гордая дизайн-студия из Краснодара.</b></p>
   	  <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
   	  <div>Выполняем заказы на разработку:</div>
-  	   <ul>
- 		     <li>Веб-сайтов любой сложности</li>
-    	   <li>Мобильных приложений для iOS и Android</li>
-    	   <li>Слайдшоу и видео для корпоративных презентаций</li>
+  	   <ul class="List-order">
+ 		     <li class="order-1">Веб-сайтов любой сложности</li>
+    	   <li class="order-2">Мобильных приложений для iOS и Android</li>
+    	   <li class="order-3">Слайдшоу и видео для корпоративных презентаций</li>
  	      </ul>
       <img src="img\nerds-illustration.jpg">
  	<table>
@@ -80,7 +81,7 @@
  </table>
  </section>
  <section class="our-projects">
- 	<ul>
+ 	<ul class="projects">
  		<li><a href="https://htmlacademy.ru"><img src="img\logo-1.png"> alt="htmlacademy"></a></li>
     	<li><a href="#"><img src="img\logo-2.png"> alt="borodinski"></a></li>
     	<li><a href="#"><img src="img\logo-3.png"> alt="pink"></a></li>
@@ -93,7 +94,7 @@
  	<p>тел. +7 (812) 275-75-75</p>
  	<button class="button">Напишите нам</button>
   <p><b>Напишите нам</b></p>
-  <form>
+  <form class="visually-hidden">
     <p class="item">
       Ваше имя:
     <input type="text" name="date" value="" placeholder="Представьтесь, пожалуйста"> 
@@ -112,7 +113,7 @@
   </main>
   <footer class="main-footer"> 
       <div class="footer-social">
-        <ul>
+        <ul class="footer-button">
          <li><a class="social-button" href="#">Вконтакте</a></li>
          <li><a class="social-button" href="#">Фейсбук</a></li>
          <li><a class="social-button" href="#">Инсаграм</a></li>

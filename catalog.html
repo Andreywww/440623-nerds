@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
-    <link href="c:\Users\Andrei\Documents\GitHub\440623-nerds\css\style.css" rel="stylesheet">
+    <link href="css\style.css" rel="stylesheet">
   </head>
   <body>
   <header class="main-header">
- 	<nav  class="main-navigation">
+  <nav  class="main-navigation">
   <a class="main-header-logo">
-  <img src="img\nerds-logo.svg" alt="Логотип Нёрдс">
+  <img src="img\nerds-logo.svg" width="160" height="70" alt="Логотип Нёрдс">
   </a>
-    <ul> 
+   <ul class="site-navigation"> 
     <li><a href="#">Студия</a></li>    
     <li><a href="#">Клиенты</a></li>
     <li><a href="catalog.html">Магазин</a></li>
@@ -22,7 +22,7 @@
     </ul>
   
    </nav>
-	</header>
+  </header>
    <main>
    	<h1>Магазин готовых шаблонов</h1>
     <section class="filter-aside">
@@ -63,9 +63,9 @@
      <div class="range-filters">
       <h3>Сортировать:</h3>  
         <ul> 
-          <li>По цене</li>    
-          <li>По типу</li>
-          <li>По названию</li>
+          <li><a href="#">По цене</a></li>    
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По названию</a></li>
         </ul>
      </div>
      <div class="site-catalog">
@@ -89,7 +89,7 @@
   <p>тел. +7 (812) 275-75-75</p>
   <button class="button">Напишите нам</button>
   <p><b>Напишите нам</b></p>
-  <form>
+  <form class="visually-hidden">
     <p class="item">
       Ваше имя:
     <input type="text" name="date" value="" placeholder="Представьтесь, пожалуйста"> 
@@ -106,9 +106,9 @@
   </form>
   </section>
   </main>
-  <footer class="main-footer"> 
+   <footer class="main-footer"> 
       <div class="footer-social">
-        <ul>
+        <ul class="footer-button">
          <li><a class="social-button" href="#">Вконтакте</a></li>
          <li><a class="social-button" href="#">Фейсбук</a></li>
          <li><a class="social-button" href="#">Инсаграм</a></li>
