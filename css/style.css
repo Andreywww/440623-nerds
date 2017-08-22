@@ -49,6 +49,10 @@ a {
   font-weight: bold;
 }
 
+.button {
+  text-transform: uppercase;
+}
+
 .our-services h3 {
   text-transform: uppercase;
 }
