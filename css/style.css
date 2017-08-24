@@ -3,11 +3,37 @@ body {
   line-height: 100%;
   color: #000000;
   font-weight: normal;
-  font-family: 'Times New Roman';
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
   text-decoration: none;
+}
+
+.button {
+  width: 150px;
+  height: 40px;
+  font: inherit;
+
+  text-align: center;
+  color:#ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;
+  border-radius: 5px;
+}
+
+.appointment-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+  border-color: #663d15; 
 }
 
 .main-navigation {
