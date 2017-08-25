@@ -10,6 +10,18 @@ a {
   text-decoration: none;
 }
 
+.c {
+  padding: 10px 50px;
+  
+  text-align: center;
+  color:#ffffff;
+  text-transform: uppercase;
+ 
+  background-color: #fb565a;
+  border: none;
+  border-radius: 3px;
+}
+
 .button {
   width: 150px;
   height: 40px;
@@ -40,10 +52,35 @@ a {
   text-transform: uppercase;
 }
 
+.user-navigation a,
+.site-navigation a,
+.footer-button a{
+  color: #000000;
+
+}
+
 .site-navigation,
 .user-navigation,
 .slider {
   list-style: none;
+}
+
+.site-navigation a:hover,
+.user-navigation a:hover {
+  color: #fb565a;
+}
+
+.slider1 p{
+font-size: 20px; 
+line-height: 20px;
+}
+
+.contact-columns {
+  color: #000000;
+
+  background-color: #f8f5f2;
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 
 .projects,
