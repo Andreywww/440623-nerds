@@ -221,3 +221,15 @@ line-height: 20px;
   text-align: center;
   background-color: #3f4445;
 }
+
+html,
+body {
+  min-width: 1440px;
+  min-height: 2476px;
+}
+
+body {
+  background-image: url("img/nerds-index.jpg");
+  background-size: 1372px auto;
+  background-repeat: no-repeat;
+}
