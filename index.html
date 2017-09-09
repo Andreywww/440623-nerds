@@ -8,10 +8,11 @@
     <link href="css\normalize.css" rel="stylesheet">
   </head>
   <body>
-  <header class="main-header">
-    <div class="container">
+  <header class="main-header"> 
+  <nav  class="main-navigation container"> 
+    <a class="main-header-logo">
     <img class="logo-image" src="img\nerds-logo.svg" width="160" height="70" alt="Логотип Нёрдс">
-  <nav  class="main-navigation"> 
+    </a>
    <ul class="site-navigation"> 
     <li class="site-navigation-item"><a class="site-navigation-current" href="#">Студия</a></li>    
     <li class="site-navigation-item"><a href="#">Клиенты</a></li>
@@ -21,14 +22,11 @@
     <ul class="user-navigation">
     <li class="basket"><a href="#">Корзина</a></li>
     </ul>
-  </div>
    </nav>
   </header>
-
    <main>
     <section class="main-slider">
-    <div class="slider-wrapper">
-     <div class="slider">
+    <div class="slider wrapper">
           <input type="radio" id="btn-1" name="toggle" checked>
           <input type="radio" id="btn-2" name="toggle">
           <input type="radio" id="btn-3" name="toggle">
@@ -41,26 +39,25 @@
            <div class="slide">
             <div class="slider-text">
             <div class="slider-caption"> Долго, дорого, скрупулезно.</div>
-                 <p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
+                 <p class="slider-info">Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
                  <a href="#" class="slider-button">Узнать больше</a>
             </div>
            </div>
            <div class="slide">  
            <div class="slider-text">            
             <div class="slider-caption"> Любим математику как никто другой</div>
-                <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+                <p class="slider-info">Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
                 <a href="#" class="slider-button">Узнать больше</a>
             </div>
            </div>
            <div class="slide">
             <div class="slider-text">
             <div class="slider-caption"> Только ночь, только хардкор</div>
-                <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+                <p class="slider-info">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
                 <a href="#" class="slider-button">Узнать больше</a>
             </div>
               </div>
          </div>
-        </div>
      </div>   
     </section>
     <section class="our-services container">
@@ -153,17 +150,17 @@
   </section>
   </main>
   <footer class="main-footer">
-    <div class="container"> 
+    <div class="social-sites container"> 
       <div class="footer-social">
         <ul class="social">
-         <li><a class="social-links" href="#">Вконтакте</a></li>
-         <li><a class="social-links" href="#">Фейсбук</a></li>
-         <li><a class="social-links" href="#">Инсаграм</a></li>
+         <li><a class="social-links-vk" href="#">Вконтакте</a></li>
+         <li><a class="social-links-fb" href="#">Фейсбук</a></li>
+         <li><a class="social-links-insta" href="#">Инсаграм</a></li>
         </ul>
       </div>
       <div class="socials">
-         <p><b>Давайте дружить,это выгодно!</b></p>
-         <p>Скидка 10% для друзей из социальных сетей.</p>
+         <p class="socials-title">Давайте дружить,это выгодно!</p>
+         <span class="socials-text">Скидка 10% для друзей из социальных сетей.</span>
       </div> 
       </div> 
   </footer> 
